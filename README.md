@@ -9,7 +9,7 @@
 
 ## 🎯 Overview
 
-This project automates the analysis of talent profile data quality by fetching data from an API, segregating profiles by job role, and calculating the percentage of missing or incorrect values in each field. The output is a beautiful, interactive HTML report with visual indicators and detailed statistics.
+This project automates the analysis of talent profile data quality by fetching data from an API, segregating profiles by job role, and calculating the percentage of missing or incorrect values in each field. The output is an interactive HTML report with visual indicators and detailed statistics.
 
 ### Key Features
 
@@ -351,89 +351,5 @@ Identify which roles or fields need the most attention.
 ### 4. Stakeholder Reporting
 Share visual reports with non-technical stakeholders.
 
----
 
-## 🐛 Troubleshooting
-
-### Common Issues
-
-**Issue:** `ModuleNotFoundError: No module named 'requests'`  
-**Solution:** Install requests: `pip install requests`
-
-**Issue:** `Error: Failed to fetch`  
-**Solution:** Check your API URL and authentication token
-
-**Issue:** `Permission denied`  
-**Solution:** Ensure you have write permissions in the directory
-
-**Issue:** Report shows 0 profiles  
-**Solution:** Verify API endpoint is returning data
-
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Here's how you can help:
-
-1. **Fork the repository**
-2. **Create a feature branch** (`git checkout -b feature/AmazingFeature`)
-3. **Commit your changes** (`git commit -m 'Add some AmazingFeature'`)
-4. **Push to the branch** (`git push origin feature/AmazingFeature`)
-5. **Open a Pull Request**
-
-### Development Guidelines
-
-- Follow PEP 8 style guide for Python code
-- Add comments for complex logic
-- Update README for new features
-- Test thoroughly before submitting PR
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 📧 Contact
-
-**Project Maintainer:** Your Name  
-**Email:** your.email@example.com  
-**GitHub:** [@yourusername](https://github.com/yourusername)
-
----
-
-## 🎉 Acknowledgments
-
-- Thanks to the team for API access and support
-- Inspired by data quality best practices
-- Built with ❤️ for better data insights
-
----
-
-## 🗺️ Roadmap
-
-### Future Enhancements
-
-- [ ] Email integration for automated reports
-- [ ] Historical tracking and trend analysis
-- [ ] Excel/CSV export options
-- [ ] Advanced field validation (email format, phone patterns)
-- [ ] Dashboard integration
-- [ ] Scheduled execution (cron jobs)
-- [ ] Multi-language support
-- [ ] API rate limiting handling
-- [ ] Database storage for historical data
-- [ ] Comparison reports (before/after)
-
----
-
-## 📚 Additional Resources
-
-- [Python Requests Documentation](https://docs.python-requests.org/)
-- [HTML Report Best Practices](https://www.w3.org/TR/html52/)
-- [Data Quality Metrics Guide](https://example.com/data-quality)
-
----
 
